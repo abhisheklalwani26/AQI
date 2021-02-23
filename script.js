@@ -1,5 +1,5 @@
 let airq = {
-    apiKey:"d3a9afb6d7ff4731a0531f91d14e044d",
+    apiKey:"{Your_API_Key_comes_here}",
     fetchQuality : function(city) {
         fetch("https://api.weatherbit.io/v2.0/forecast/airquality?&city="
         + city +
@@ -36,7 +36,7 @@ let airq = {
 let geocode = {
     reverseGeocode : function(latitude, longitude){
 
-        var apikey = '4189c6a7b595424ea59329bee8433bb4';
+        var apikey = '{Your_API_Key_comes_here}';
   
 
   var api_url = 'https://api.opencagedata.com/geocode/v1/json'
